@@ -39,7 +39,7 @@ MediaScanner::MediaScanner(std::vector<Song>& songsRef,const std::string& pathfo
 
 void MediaScanner::scanMedia()
 {  
-
+    
 }
 
 void MediaScanner::displayScanProgress(int percentage) const
