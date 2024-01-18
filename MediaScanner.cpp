@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 #include "/home/kpit/Desktop/MediaIndex/MediaScanner.h"
+=======
+#include "MediaScanner.h"
+>>>>>>> abcd/master
 #include "MediaExtractor.h"
 #include "Songs.h"
 #include <iostream>
 #include <filesystem>
 
+<<<<<<< HEAD
 MediaScanner::MediaScanner(std::string st){
 
 }
@@ -13,6 +18,12 @@ MediaScanner::MediaScanner(std::vector<Song>& songsRef,const std::string& pathfo
 
 //std::vector<Song>  MediaScanner::scanMedia(const std::string& folderPath) {
     void MediaScanner::scanMedia(const std::string& folderPath){
+=======
+
+
+
+void MediaScanner::scanMedia(const std::string& folderPath) {
+>>>>>>> abcd/master
     int totalFiles = 0;
     int scannedFiles = 0;
 
@@ -37,6 +48,7 @@ MediaScanner::MediaScanner(std::vector<Song>& songsRef,const std::string& pathfo
     std::cout << "\n[100%] Scan Completed!\n";
 }
 
+<<<<<<< HEAD
 void MediaScanner::scanMedia()
 {  
     
@@ -44,6 +56,9 @@ void MediaScanner::scanMedia()
 
 void MediaScanner::displayScanProgress(int percentage) const
 {
+=======
+void MediaScanner::displayScanProgress(int percentage) const {
+>>>>>>> abcd/master
     std::cout << "[" << percentage << "%] ";
     std::cout.flush();
 }
@@ -63,4 +78,8 @@ void MediaScanner::displayHelp() const {
               << "2. Display information of founded songs\n"
               << "3. Help\n"
               << "4. Exit\n";
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> abcd/master

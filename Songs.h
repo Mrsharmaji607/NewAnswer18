@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> abcd/master
 #ifndef SONGS_H
 #define SONGS_H
 
@@ -14,4 +17,8 @@ public:
     Song(const std::string& name, const std::string& format, const std::string& path, long size);
 };
 
+<<<<<<< HEAD
 #endif // SONGS_H
+=======
+#endif // SONGS_H
+>>>>>>> abcd/master

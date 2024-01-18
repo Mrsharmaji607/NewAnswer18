@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> abcd/master
 #ifndef MEDIAEXTRACTOR_H
 #define MEDIAEXTRACTOR_H
 
@@ -10,4 +13,7 @@ public:
 };
 
 #endif // MEDIAEXTRACTOR_H
+<<<<<<< HEAD
 
+=======
+>>>>>>> abcd/master

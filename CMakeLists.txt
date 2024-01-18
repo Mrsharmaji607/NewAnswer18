@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cmake_minimum_required(VERSION 3.10)
 project(MediaScannerProject)
 
@@ -22,3 +23,21 @@ Songs.h
 
 # Set include directories
 target_include_directories(media_app PRIVATE include)
+=======
+cmake_minimum_required(VERSION 3.12)
+project(MediaIndexer)
+
+set(CMAKE_CXX_STANDARD 11)
+
+# Source files
+set(SRCS
+    Main.cpp
+    MediaScanner.cpp
+    MediaExtractor.cpp
+    MediaDatabase.cpp
+    Song.cpp
+)
+
+# Create executable
+add_executable(media_app ${SRCS})
+>>>>>>> abcd/master

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #include "MediaDatabse.h"
+=======
+#include "/home/kpit/MediaIndexer/MediaDatabse.h"
+>>>>>>> abcd/master
 #include <iostream>
 
 void MediaDatabase::addSong(const Song& song) {
@@ -12,4 +16,8 @@ void MediaDatabase::displayAllSongs() const {
                   << "Path: " << song.path << "\n"
                   << "Size: " << song.size << " bytes\n\n";
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> abcd/master
